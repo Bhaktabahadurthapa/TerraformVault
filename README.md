@@ -35,4 +35,6 @@ To start Vault, you can use the following command:
 ```
 vault server -dev -dev-listen-address="0.0.0.0:8200"
 ```
+**Run the Public_ip:8200 port ** to access the vault 
+<img width="1451" alt="image" src="https://github.com/user-attachments/assets/7962d2fa-f246-4c5c-a708-926ba748005c">
 
