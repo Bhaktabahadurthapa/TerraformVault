@@ -9,7 +9,7 @@ and following steps to be execute Install Vault on the EC2 instance
 **
 ```
 sudo apt update && sudo apt install gpg wget
-``
+```
 **Download the signing key to a new keyring
 **
 ```
