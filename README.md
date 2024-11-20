@@ -27,4 +27,12 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashi
 **Finally, Install Vault**
 ```
 sudo apt update && sudo apt install vault
+
 ```
+**Start Vault.**
+To start Vault, you can use the following command:
+
+```
+vault server -dev -dev-listen-address="0.0.0.0:8200"
+```
+
